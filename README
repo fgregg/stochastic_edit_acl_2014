@@ -1,0 +1,16 @@
+Detailed description of everything comming soon...
+
+Example:
+Runs (0,2,0) topology with 
+100 = training examples
+.2 = .2 regularization coefficient
+no = no backoff features 
+
+./experiment020.sh 100 .2 no
+
+Runs (1,1,0) topology with 
+1000 = training examples
+.5 =  .5 regularization coefficient
+yes = with backoff features 
+
+./experiment110.sh 1000 .5 yes
